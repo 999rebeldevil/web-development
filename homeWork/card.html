@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            height: 500px;
+            background-color: aliceblue;
+        }
+
+        .cantent {
+            padding-top: 10px;
+        }
+
+        .photo {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        .heading {
+            width: 400px;
+            margin-left: 50px;
+        }
+
+        .price {
+            display: flex;
+            margin-top: 30px;
+            gap: 40px;
+            width: 400px;
+            padding-left: 50px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        #mainPrice {
+            color: rgb(91, 145, 232);
+
+        }
+        #discount {
+            background-color: rgb(10, 242, 165);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="cantent">
+            <div class="photo">
+                <img src="Web_Dev_670f900667.jpeg" alt="">
+            </div>
+            <div class="heading">
+                <h1>Web Development Master Course @dot batch</h1>
+            </div>
+            <br>
+            <hr>
+            <div class="price">
+                <p id="mainPrice">₹4500</p>
+                <p> <del>₹6999</del></p>
+                <p id="discount">42% off</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
