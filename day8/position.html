@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        div{
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            border: 1px solid red;
+        }
+        #box3{
+            position: relative;
+            top: 100px;
+            left: 20px;
+        }
+        #box1{
+            position: fixed;
+        }
+        .wriper{
+            width: 100vw;
+            height: 2000px;
+            background-color: yellow;
+        }
+        #box4{
+            position: fixed;
+            top: 2px;
+        }
+
+    </style>
+</head>
+<body>
+      <!-- <p>This is a para</p>
+      <h1>heading1</h1>
+      <p>second para</p>
+      <h2>this is a heading</h2> -->
+
+      <!-- <div class="box" id="box1">abcd</div> -->
+      <div class="wriper">
+        <div class="box" id="box1">A</div>
+      <div class="box" id="box2">B</div>
+      <div class="box" id="box3">C</div>
+      <div class="box" id="box4">D</div>
+      </div>
+      
+</body>
+</html>

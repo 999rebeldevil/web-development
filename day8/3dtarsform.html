@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D-transform</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+
+
+        }
+        .translated{
+            transform:perspective(100px) translateZ(-100px);
+        }
+        .scaled{
+            transform:perspective(350px) scalez(2) rotateX(15deg) rotateY(30deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="static"></div>
+    <div class="translated"></div>
+    <div class="scaled"></div>
+</body>
+</html>
