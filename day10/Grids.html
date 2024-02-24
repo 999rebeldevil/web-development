@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    
+        }
+        .containar{
+            background-color: red;
+            height: 500px;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .box{
+            background-color: aqua;
+            border: 1px solid black;
+            
+        }
+        #box1{
+            grid-column-start:1 ;
+            grid-column-end: 3;
+        }
+        #box3{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="containar">
+        <div class="box" id="box1">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box" id="box3">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+        <div class="box">Box6</div>
+        <div class="box">Box7</div>
+        <div class="box">Box8</div>
+        <div class="box">Box9</div>
+        <div class="box">Box10</div>
+
+    </div>
+</body>
+</html>
