@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 215px;
+            background-color:yellow;
+            border: 2px solid red;
+
+
+        }
+        .box{
+            width: 212px;
+            height: 212px;
+            border: 2px solid green;
+            background-color: aqua;
+            animation-name: mehta;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-direction: normal;
+        }
+        @keyframes mehta {
+            0%{
+                width:213px ;
+                background-color: aqua;
+            }
+            30%{
+                width: 350px;
+                background-color:red ;
+            }
+            60%{
+                width: 650px;
+                background-color: blue;
+            }
+            100%{
+                width: 100%;
+                background-color: goldenrod;
+            }
+        }
+
+
+
+        /* @keyframes mehta{
+            form{
+                width: 212px;
+
+            }
+            to{
+                width: 800px;
+
+            }
+            
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
