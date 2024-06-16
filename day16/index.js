@@ -50,13 +50,19 @@
 
 
 //combineding
-let first = [1,2,3];
-let second = [4,5,6];
+// let first = [1,2,3];
+// let second = [4,5,6];
 
-let combined = first.concat(second);
-console.log(combined);
+// let combined = first.concat(second);
+// console.log(combined);
 
-//adding
+// //adding
 
-let sliced = combined.slice(0,3);
-console.log(sliced);
+// let sliced = combined.slice(0,3);
+// console.log(sliced);
+
+let arr = [10,20,30,40,50];
+
+for(let value of arr) {
+    console.log(value);
+}
