@@ -61,8 +61,51 @@
 // let sliced = combined.slice(0,3);
 // console.log(sliced);
 
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 
-for(let value of arr) {
-    console.log(value);
-}
+// // for(let value of arr) {
+// //     console.log(value);
+// // }
+// arr.forEach(num => console.log(num))
+
+
+//joining Array
+// let num =[10,20,30,40];
+// const joined = num.join(',');
+
+// console.log(joined);
+// console.log(num);
+
+// 
+
+
+// let message = 'This is my first message';
+// let parts = message.split(' ');
+
+// console.log(parts);
+// let joined = parts.join('_');
+// console.log(joined);
+
+
+// let num = [50,20,40,90,30,10];
+
+// num.sort(); 
+
+// console.log(num);
+
+// num.reverse()
+// console.log(num);
+
+// let num = [1,2,3,4,-1,-2,-3,-4];
+
+//  let filtered = num.filter(value => value >= 0);
+// console.log(filtered);
+
+let num = [ 5,6,9,7,4,3,6,2,1];
+console.log(num);
+let items = num.map(value =>'student_no' + value);
+
+
+
+items.sort();
+console.log(items);
