@@ -101,11 +101,27 @@
 //  let filtered = num.filter(value => value >= 0);
 // console.log(filtered);
 
-let num = [ 5,6,9,7,4,3,6,2,1];
-console.log(num);
-let items = num.map(value =>'student_no' + value);
+// let num = [ 5,6,9,7,4,3,6,2,1];
+// console.log(num);
+// let items = num.map(value =>'student_no' + value);
 
 
 
-items.sort();
-console.log(items);
+// items.sort();
+// console.log(items);
+
+
+// let x = 0;
+// for (let i = 0; i<5; i++){
+//     x+=i;
+
+// }
+// console.log(x);
+
+
+// const x = [1,2,3];
+// console.log(x[3]);
+
+const x =5;
+const y ='5';
+console.log(x ===y);
